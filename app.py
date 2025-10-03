@@ -8,10 +8,10 @@ import plotly.express as px
 
 
 # ----- Page config (do this ONCE and first) -----
-st.set_page_config(page_title="POWELL NDLOVU ENVIRONMENTAL DATA ANALYST", layout="wide")
 st.set_page_config(page_title="Tech Stocks Analysis Dashboard", layout="wide")
 
 # ----- Title -----
+st.title("POWELL NDLOVU THE ENVIRONMENTAL DATA ANALYST PORTFOLIO")
 st.title("📊 Tech Stocks Analysis Dashboard")
 st.caption("AAPL • AMZN • GOOG • MSFT")
 
@@ -158,5 +158,6 @@ if problems:
     with st.expander("⚠️ Data loading notes"):
         for msg in problems:
             st.write("- " + msg)
+
 
 
