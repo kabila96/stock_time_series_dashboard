@@ -16,10 +16,10 @@ st.caption("AAPL • AMZN • GOOG • MSFT")
 
 # ----- File list -----
 company_list = [
-    r'C:\Users\User\OneDrive - Swansea University\Desktop\Real_World_Data_Analytics\Time_Series_Analysis\individual_stocks_5yr\AAPL_data.csv',
-    r'C:\Users\User\OneDrive - Swansea University\Desktop\Real_World_Data_Analytics\Time_Series_Analysis\individual_stocks_5yr\AMZN_data.csv',
-    r'C:\Users\User\OneDrive - Swansea University\Desktop\Real_World_Data_Analytics\Time_Series_Analysis\individual_stocks_5yr\GOOG_data.csv',
-    r'C:\Users\User\OneDrive - Swansea University\Desktop\Real_World_Data_Analytics\Time_Series_Analysis\individual_stocks_5yr\MSFT_data.csv',
+    r'AAPL_data.csv',
+    r'AMZN_data.csv',
+    r'GOOG_data.csv',
+    r'MSFT_data.csv',
 ]
 
 # ----- Load & combine safely -----
@@ -157,3 +157,4 @@ if problems:
     with st.expander("⚠️ Data loading notes"):
         for msg in problems:
             st.write("- " + msg)
+
